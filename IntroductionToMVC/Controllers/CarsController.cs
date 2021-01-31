@@ -22,5 +22,12 @@ namespace IntroductionToMVC.Controllers
             //no view
             return Content("<h1>Attribute-based Routing Demo </h1>");
         }
+
+        //multi action , use parameter 
+        [Route("Cars/Details/{id}")]
+        public ContentResult Details(int id)
+        {
+            return Content("<h2>Car id = " + id + "</h3>");
+        }
     }
 }
