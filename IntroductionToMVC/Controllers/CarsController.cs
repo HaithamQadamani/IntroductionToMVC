@@ -24,10 +24,16 @@ namespace IntroductionToMVC.Controllers
         }
 
         //multi action , use parameter 
-        [Route("Cars/Details/{id}")]
+        [Route("Cars/Details/{id:int}")]
         public ContentResult Details(int id)
         {
             return Content("<h2>Car id = " + id + "</h3>");
+        }
+
+        [Route("Cars/Details/{name}")]
+        public ContentResult Details (string name)
+        {
+            return Content("<h2>Car name = " + name + "</h3>");
         }
     }
 }
