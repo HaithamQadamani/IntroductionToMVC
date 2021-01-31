@@ -15,6 +15,8 @@ namespace IntroductionToMVC
             //routes.IgnoreRoute("{resource}.txt/{*pathInfo}");
             routes.IgnoreRoute("Computer/Display");
 
+            //attribute-based routing/lesson 6
+            routes.MapMvcAttributeRoutes();
 
             routes.MapRoute(
                 name: "Default",
