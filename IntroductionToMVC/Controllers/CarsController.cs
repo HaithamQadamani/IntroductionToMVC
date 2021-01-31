@@ -10,6 +10,12 @@ namespace IntroductionToMVC.Controllers
     {
         // GET: Cars
 
+
+        //Default page for website, without controller and action
+        [Route("")]
+        //no action , only controller
+        [Route("Cars")]
+        //default
         [Route("Cars/Index")]
         public ContentResult Index()
         {
