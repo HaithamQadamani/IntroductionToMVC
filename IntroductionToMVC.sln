@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1340
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToMVC", "IntroductionToMVC\IntroductionToMVC.csproj", "{4C836EEB-DA98-4B0B-AB54-04CD706EC641}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC From Scratch", "MVC From Scratch\MVC From Scratch.csproj", "{AAFC9951-18FB-4A1E-9B4D-8472F37F8FC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4C836EEB-DA98-4B0B-AB54-04CD706EC641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C836EEB-DA98-4B0B-AB54-04CD706EC641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C836EEB-DA98-4B0B-AB54-04CD706EC641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFC9951-18FB-4A1E-9B4D-8472F37F8FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFC9951-18FB-4A1E-9B4D-8472F37F8FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFC9951-18FB-4A1E-9B4D-8472F37F8FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFC9951-18FB-4A1E-9B4D-8472F37F8FC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
