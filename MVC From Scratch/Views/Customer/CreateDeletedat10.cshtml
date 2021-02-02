@@ -1,0 +1,47 @@
+﻿@model MVC_From_Scratch.Models.Customer
+
+<table style="margin-top:80px">
+    <tr>
+        <td>
+            @Html.Label("CustomerID", "Customer ID")
+        </td>
+        <td>
+            @Html.TextBox("CustomerID")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Label("Name", "Customer Name")
+        </td>
+        <td>
+            @Html.TextBox("Name")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Label("Address", "Customer Address")
+        </td>
+        <td>
+            @Html.TextArea("Address")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Label("CustomerAge", "Customer Age")
+        </td>
+        <td>
+            @Html.TextBox("Age")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Label("State", "Customer State")
+        </td>
+        <td>
+            @Html.RadioButton("Working","Working",true)
+            @Html.RadioButton("Working","Not Working",false)
+        </td>
+    </tr>
+</table>
+
+@Html.ActionLink("Display Customer Details", "DisplayCustomer")
