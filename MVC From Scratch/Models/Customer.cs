@@ -20,5 +20,10 @@ namespace MVC_From_Scratch.Models
             Address = address;
             Age = age;
         }
+
+        public Customer()
+        {
+
+        }
     }
 }

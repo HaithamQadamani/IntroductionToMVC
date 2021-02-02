@@ -15,5 +15,11 @@ namespace MVC_From_Scratch.Controllers
             var customer = new Customer(1,"Haitham", "Amman", 20);
             return View(customer);
         }
+
+        public ActionResult Create()
+        {
+            var cust = new Customer();
+            return View(cust);
+        }
     }
 }
